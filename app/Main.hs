@@ -1,8 +1,7 @@
 module Main where
 
-import qualified MyLib as M
+import qualified S1
 
 main :: IO ()
 main = do
-  putStrLn "start ..."
-  M.main
+  S1.main
